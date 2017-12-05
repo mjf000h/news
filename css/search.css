@@ -1,0 +1,221 @@
+@import url("base.css");
+*{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    height:.5rem;
+    background-color: orangered;
+    overflow: hidden;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+}
+.headerbox{
+    height:100%;
+    width:92%;
+    margin:0 auto;
+    position: absolute;
+    top:0;
+    left:4%;
+}
+a.back{
+    display: block;
+    width:.5rem;
+    line-height: 0.5rem;
+    color: #fff;
+    font-size: .24rem;
+    font-family: "宋体";
+    position: absolute;
+    left:0;
+    top:0;
+
+}
+#headerInput{
+    display: block;
+    width: 80%;
+    height: .4rem;
+    margin-top:.05rem;
+    border:none;
+    outline:none;
+    border-radius: .4rem;
+    padding-left: 1em;
+    font-size: .14rem;
+    box-sizing: border-box;
+    position: absolute;
+    left:10%;
+}
+#search{
+    position: absolute;
+    width:10%;
+    height:.3rem;
+    top:.1rem;
+    right:-0.1rem;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .3rem;
+    color: #eee;
+    border:none;
+    outline:none;
+    background: rgba(0,0,0,0);
+}
+main{
+    margin-top: .5rem;
+    width:100%;
+}
+#main{
+    width:100%;
+}
+#main>li{
+    width:92%;
+    margin:0 auto;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.02rem solid #eee;
+    overflow: hidden;
+    position: relative;
+
+}
+#main>li a{
+    color: #000;
+}
+.mark{
+    min-height: 1rem;
+    max-height: 1.7rem;
+}
+.left{
+    width:30%;
+    height:100%;
+    padding:0.1rem;
+    padding-left: 0;
+    box-sizing: border-box;
+    float: left;
+}
+.leftBox{
+    width:100%;
+    height:100%;
+    max-height:1.2rem;
+    overflow: hidden;
+}
+.right{
+    width: 70%;
+    height:100%;
+    padding:0.1rem;
+    padding-right: 0;
+    font-size: .16rem;
+    box-sizing: border-box;
+    float: right;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+}
+.leftBox img{
+    width: 100%;
+}
+.bottom{
+    position: absolute;
+    bottom:0.2rem;
+    right: 0;
+    color: #666;
+}
+.message{
+    padding-top: .05rem;
+    overflow: hidden;
+    color: #666;
+}
+.from{
+    float: left;
+    font-size: .12rem;
+}
+.from span{
+    font-size: .12rem;
+    margin-left: .01rem;
+}
+.time{
+    float: left;
+    font-size: .12rem;
+    margin-left: .05rem;
+}
+.title{
+    width:100%;
+    font-size: .16rem;
+    padding-top: .1rem;
+}
+.message{
+    padding-top: .05rem;
+}
+#button{
+    display: none;
+    width: 3rem;
+    margin:0.2rem auto;
+    border:none;
+    outline:none;
+    background: #C50404;
+    line-height: .4rem;
+    font-size: .16rem;
+    border-radius: 0.04rem;
+    color: #fff;
+    letter-spacing: 0.01rem;
+}
+.shade{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top:.5rem;
+    left:0;
+    background: rgba(0,0,0,0.3);
+    z-index:999;
+    display: none;
+}
+.shade img{
+    position: absolute;
+    width:50%;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:50%;
+}
+.history{
+    position: absolute;
+    width:100%;
+    top:.6rem;
+}
+.line{
+    width:100%;
+    height:0.01rem;
+    background-color: #ddd;
+}
+.bigline{
+    border-bottom: 0.01rem solid #ddd;
+    width:100%;
+    height:0.05rem;
+    background-color: #eee;
+}
+#title{
+    width: 92%;
+    margin:0 auto;
+    font-size: .14rem;
+    line-height:.2rem;
+    margin-bottom: .05rem;
+    color: #999;
+}
+.content{
+    width: 92%;
+    margin:0 auto;
+    margin-top: .2rem;
+    display: flex;
+    flex-wrap:wrap;
+}
+.content>p{
+    font-size: .18rem;
+    line-height:.30rem;
+    padding-left:.05rem;
+    padding-right:.05rem;
+    margin-right: .2rem;
+    margin-bottom: .15rem;
+    border:.01rem solid #666;
+    font-family: "方正书宋简体";
+}

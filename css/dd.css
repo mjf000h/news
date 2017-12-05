@@ -1,0 +1,62 @@
+@import url("base.css");
+a{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    margin:0 auto;
+    height: .5rem;
+    border-bottom: 0.01rem solid #eee;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #fff;
+}
+.headerbox{
+    width:92%;
+    margin:0 auto;
+}
+.back{
+    display: block;
+    width:.5rem;
+    line-height: 0.5rem;
+    color: #000;
+    font-size: .3rem;
+    font-family: "宋体";
+}
+main{
+    width:92%;
+    margin:0 auto;
+    margin-top: .7rem;
+}
+h1{
+    width:100%;
+    font-size: .2rem;
+    line-height: .3rem;
+    text-align: center;
+}
+.message{
+    width:100%;
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#from{
+    font-size: .12rem;
+    line-height:.12rem;
+}
+#time{
+    font-size: .12rem;
+    line-height:.12rem;
+}
+article{
+    margin-top: .3rem;
+    font-size: .14rem;
+}
+article .art_p:first-child{
+    margin-bottom: .1rem;
+}
+article img{
+    margin:.1rem auto;
+    max-width: 100%;
+}
